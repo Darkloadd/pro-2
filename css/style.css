@@ -17,6 +17,8 @@ h2{
 }
 p{
   color: #0A043C;
+  font-size: 1rem;
+    line-height: 2;
 }
 h3{
   margin-top: 0;
@@ -27,7 +29,7 @@ h3{
   margin: 0;
   color: #c70039;
   font-size: 1.5rem;
-  line-height: 2;
+
 }
 
 .top {
@@ -38,10 +40,11 @@ h3{
 .middle {
   background-color: #F1D1D0;
   padding: 20px;
+  padding-bottom: 30px;
 }
 
 .bottom {
-  background-color: #F875AA; 
+  background-color: #F875AA;
   padding: 20px;
 }
 
@@ -56,16 +59,23 @@ h3{
   margin-top: 50px;
 }
 .telephone{
-height: 100px;
-width: 100px;
+margin-bottom: 15px;
+height: 150px;
+
 }
 .footer-link{
-  color:#b34180;
+  color: #c70039;
+  margin: 0 10px;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+a:hover{
+  color:#eaf6f6;
 }
 hr{
   border-style:none;
   border-top-style: dotted;
-  border-top-width: 5px;
+  border-top-width: 10px;
   width: 100px;
   border-color: #c70039;
 }
@@ -113,4 +123,14 @@ text-align: left;
 .btn:hover {
   background:  #fbaccc;
   text-decoration: none;
+}
+
+.intro{
+  margin: 0 auto 0 auto;
+    width:30%;
+}
+.copyright{
+  margin-bottom: 0;
+  padding-top: 20px;
+  font-size: 0.9rem;
 }
